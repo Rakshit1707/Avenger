@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI';
+    background-color: grey;
+}
+
+.container{
+    /* background-color:gray; */
+    width: 80%;
+    height: 100%;
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+}
+/* filter css */
+.filters{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: black;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.filter_name_field{
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    margin-left: 20px;
+    border-radius: 5px;
+    height: 40px;
+    color:black;
+    width: 96%;
+    text-indent: 20px;
+}
+.filter_fields{
+    margin-bottom: 15px;
+}
+.filter_field{
+    /* padding-left: 20px; */
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    margin-left: 20px;
+    border-radius: 5px;
+    height: 40px;
+    color:black;
+    width: 30%;
+    text-indent: 20px;
+
+}
+.btn{
+    cursor: pointer;
+    margin-top: 10px;
+    height: 40px;
+    width: 16%;
+    border-radius: 10px;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    margin-left: 15px;
+    background-color: #3564da;
+    color: white;
+
+
+}
+.btn:active{
+    /* box-shadow: black; */
+    color: black;
+    background-color: gray;
+    border: 3px solid black;
+}
+/* cards css */
+.superheros{
+
+    /* background-color:red; */
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* width: 100%;
+    height: 20%;
+    
+    */
+} 
+
+.superhero{
+    width:22%;
+    box-shadow: 0 0 2px gray;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 25px;
+
+}
+.img{
+    width: 100%;
+}
+.superhero_details{
+    padding: 10px;
+    /* background-color: blue; */
+}
+.superhero_img{
+    /* background-color: yellow; */
+    /* padding-left: 20px; */
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.superhero_name{
+    font-size: 20px;
+    font-style: bold;
+}
+
+.powerstats p{
+    padding:1px 0px;
+}
+.bodystats{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.power-bg{
+    width: 100%;
+    background-color: gray;
+    height: 10px;
+    margin-top: 5px;
+}
+.power-fg{
+    background-color:green;
+    height: 10px;
+    margin-top: 5px;
+}
